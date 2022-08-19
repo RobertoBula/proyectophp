@@ -2,6 +2,10 @@
 <br>
 <div class="d-flex justify-content-center text-center">
 	<form class="p-5 bg-light">
+	<div class="form-group">
+			<label for="name"> Your name:</label>
+			<input type="text" class="form-control" id="email">
+		</div>
 		<div class="form-group">
 			<label for="email">Email address:</label>
 			<input type="email" class="form-control" id="email">
