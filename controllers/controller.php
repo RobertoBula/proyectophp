@@ -15,7 +15,12 @@ class Controller
     public function enlacesPaginasController()
     {
 
-        $enlacesC = $_GET["action"];
+        if (isset($_GET["action"])) {
+
+            $enlacesC = $_GET["action"];
+        } else {
+            $enlacesC = "index";
+        }
 
         $response = EnlacesPaginas::enlacesPaginasModel($enlacesC);
 

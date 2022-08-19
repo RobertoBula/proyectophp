@@ -5,15 +5,17 @@ class EnlacesPaginas
 
     public static function enlacesPaginasModel($enlacesM)
     {
-        // if (
-        //     $enlacesM == "inicio" ||
-        //     $enlacesM == "nosotros" ||
-        //     $enlacesM == "servicios" ||
-        //     $enlacesM == "contacto"
-        // ) {
+        if (
+            $enlacesM == "registro" ||
+            $enlacesM == "informacion" ||
+            $enlacesM == "salir"
+        ) {
             $module = "views/modules/" . $enlacesM . ".php";
-       // }
-
+        } else if ($enlacesM == "index") {
+            $module = "views/modules/inicio.php";
+        } else {
+            $module = "views/modules/inicio.php";
+        }
         return $module;
     }
 }

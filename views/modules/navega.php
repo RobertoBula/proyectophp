@@ -1,8 +1,8 @@
 <nav>
     <div class="btn-group">
-        <a href="index.php?action=inicio" class="btn btn-primary">Inicio</a>
-        <a href="index.php?action=nosotros" class="btn btn-primary">Nosotros</a>
-        <a href="index.php?action=servicios" class="btn btn-primary">Servicios</a>
-        <a href="index.php?action=contacto" class="btn btn-primary">Contactenos</a>
+        <a href="index.php" class="btn btn-primary">Inicio</a>
+        <a href="index.php?action=registro" class="btn btn-primary">Registro</a>
+        <a href="index.php?action=informacion" class="btn btn-primary">Información</a>
+        <a href="index.php?action=salir" class="btn btn-primary">Salir</a>
     </div>
 </nav>

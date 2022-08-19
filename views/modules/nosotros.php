@@ -1,1 +1,0 @@
-<h1 class="text-center">PAGINA DE NOSOTROS</h1>
