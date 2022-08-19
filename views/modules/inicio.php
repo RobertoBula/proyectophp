@@ -4,15 +4,15 @@
 	<form class="p-5 bg-light">
 		<div class="form-group">
 			<label for="email">Email address:</label>
-			<input type="email" class="form-control" id="email"required>
+			<input type="email" class="form-control" id="email" required>
 		</div>
 		<div class="form-group">
 			<label for="pwd">Password:</label>
-			<input type="password" class="form-control" id="pwd"required>
+			<input type="password" class="form-control" id="pwd" required>
 		</div>
 		<div class="form-group form-check">
 			<label class="form-check-label">
-                <br>
+				<br>
 				<input class="form-check-input" type="checkbox"> Remember me
 			</label>
 		</div>
