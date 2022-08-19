@@ -1,17 +1,21 @@
 <h1 class="text-center">PAGINA DE INICIO</h1>
-<form>
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<br>
+<div class="d-flex justify-content-center text-center">
+	<form class="p-5 bg-light">
+		<div class="form-group">
+			<label for="email">Email address:</label>
+			<input type="email" class="form-control" id="email">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" id="pwd">
+		</div>
+		<div class="form-group form-check">
+			<label class="form-check-label">
+                <br>
+				<input class="form-check-input" type="checkbox"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
