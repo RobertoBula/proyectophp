@@ -14,7 +14,7 @@ class EnlacesPaginas
         } else if ($enlacesM == "index") {
             $module = "views/modules/inicio.php";
         } else {
-            $module = "views/modules/inicio.php";
+            $module = "views/modules/error404.php";
         }
         return $module;
     }

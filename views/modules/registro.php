@@ -4,21 +4,24 @@
 	<form class="p-5 bg-light">
 		<div class="form-group">
 			<label for="name"> Your name:</label>
-			<input type="text" class="form-control" id="name" required>
+			<div class="input-group">
+				<span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-user"></i></span>
+				<input type="text" class="form-control" id="name" required>
+			</div>
 		</div>
 		<div class="form-group">
 			<label for="email">Email address:</label>
-			<input type="email" class="form-control" id="email" required>
+			<div class="input-group">
+				<span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-at"></i></span>
+				<input type="email" class="form-control" id="email" required>
+			</div>
 		</div>
 		<div class="form-group">
 			<label for="pwd">Password:</label>
-			<input type="password" class="form-control" id="pwd" required>
-		</div>
-		<div class="form-group form-check">
-			<label class="form-check-label">
-				<br>
-				<input class="form-check-input" type="checkbox"> Remember me
-			</label>
+			<div class="input-group">
+				<span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-key"></i></span>
+				<input type="password" class="form-control" id="pwd" required>
+			</div>
 		</div>
 		<br>
 		<button type="submit" class="btn btn-primary">Submit</button>
